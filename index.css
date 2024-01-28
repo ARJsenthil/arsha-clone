@@ -1,0 +1,328 @@
+*
+{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    background-color: #3C4C69d9;
+    color: white;
+    z-index: 1;
+}  
+
+.navbar-brand h1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0% !important;
+    color: white !important;
+    font-size: xx-large !important;
+    font-weight: 500 !important;
+}
+/* .navbar-nav
+{
+    align-items: center;
+} */
+.nav-link
+{
+    color: white !important;
+
+    &:hover
+    {
+        color: #47b2e4 !important;
+    }
+}
+.header-btn
+{
+    border: 2px #47b2e4 solid;
+    border-radius: 50px !important;
+    font-weight: 500;
+
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.home
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #37517e;
+    padding-top: 80px;
+}
+
+.home .home-img
+{
+    animation: alternate infinite img-up-down 3s;
+    position: relative;
+}
+
+@keyframes img-up-down {
+    from{top: 20px; left: 0%;}
+    to{top: -10px; left: 0%;}
+}
+
+.home-content
+{
+    padding-top: 7%;
+}
+.home-h1
+{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.home-p
+{
+    font-size: 23px;
+    opacity: .7;
+}
+.home-watch-box
+{
+    gap: 15px;
+    margin-top: 50px;
+}
+.home-get-st
+{
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: #47b2e4;
+    padding: 11px 27px;
+
+}
+.home-watch
+{
+    gap: 8px;
+}
+.home-img
+{
+
+}
+
+.about
+{
+    padding-top: 100px;
+}
+.about-top-content
+{
+    text-align: center;
+    
+}
+.about-top-content h1
+{
+    margin: 0%;
+    color: #37517e;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-top-content p
+{
+    content: "";
+    display: inline-block !important;
+    width: 50px;
+    height: 5px;
+    background-color: #47b2e4;
+    
+}
+.about-para-2
+{
+    line-height: 27px;
+}
+.about-left-content
+{
+    svg
+    {
+        color: #47b2e4 !important;
+    }
+}
+.about-right-content .about-btn
+{
+    border: 2px solid #47b2e4;
+    
+    padding: 7px 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.why-us
+{
+    padding-top: 60px;
+}
+.why-us .why-us-left-container
+{
+    
+}
+.why-us-left-container p
+{
+    font-size: medium;
+    opacity: .6;
+}
+.why-us .card-body
+{
+    font-size: 15px;
+}
+.why-us .why-us-left-container .btn
+{
+    color: black;
+    text-decoration: none;
+
+    &:hover
+    {
+        color: #47b2e4;
+        text-decoration: none;
+    }
+}
+.why-us-left-container h1
+{
+    font-size: xx-large;
+    color: #37517e;
+}
+
+
+
+
+
+.contact
+{
+    padding-top: 90px;
+}
+.contact-top-container
+{
+    
+}
+.contact-top-container h1
+{
+    margin: 0%;
+    color: #37517e;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-top-container .c-p-1
+{
+    content: "";
+    display: inline-block !important;
+    width: 50px;
+    height: 5px;
+    background-color: #47b2e4;
+}
+.contact-top-container p:last-child
+{
+    font-size: 18px;
+    opacity: .9;
+}
+.contact-bottom-container
+{
+}
+.contact .contact-main-container
+{
+    /* height: 100px; */
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+.contact-main-container textarea
+{
+    min-height: 248.3px;
+}
+.contact .contact-main-container svg
+{
+    color: #47b2e4;
+}
+.contact .contact-main-container .icon
+{
+    padding: 9px 13px 11px 13px;
+    background-color: #47b2e444;
+}
+.contact .contact-main-container .icon-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contact-main-container
+{
+    h1
+    {
+        font-size: large;
+    }
+    p
+    {
+        font-size: medium;
+    }
+}
+
+.footer
+{
+    background-color: #37517e;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .home-content
+    {
+        text-align: center !important;
+        order: 2 !important;
+
+        h1
+        {
+            font-size: xxx-large !important;
+        }
+        p
+        {
+            font-size: large !important;
+        }
+        .home-watch-box
+        {
+            justify-content: center !important;
+            margin: 10px 0px 30px 0px!important;
+        }
+    }
+    .home-img-box
+    {
+        order: 1 !important;
+    }
+
+    .about .about-right-content
+    {
+        padding-top: 15px;
+    }
+    .why-us .why-us-right-container
+    {
+        padding-top: 30px;
+    }
+    .contact .c-b-1
+    {
+        border-bottom: none !important;
+    }
+    .contact .c-b-2
+    {
+        border-top: none !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .home-content
+    {
+    }
+        h1
+        {
+            font-size: xx-large !important;
+        p
+        {
+            font-size: medium !important;
+        }
+        .home-watch-box
+    {
+    }
+        margin: 10px 0px !important;
+    }
+}
